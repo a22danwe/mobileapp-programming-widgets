@@ -16,25 +16,26 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="78dp"
         android:layout_weight="1"
+        android:background="@android:color/holo_red_dark"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="60dp"
-            android:layout_weight="0"
+            android:layout_weight="1"
 
             android:text="Hejdå!" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="60dp"
-            android:layout_weight="0"
+            android:layout_weight="1"
             android:text="Hej!" />
 
     </LinearLayout>
@@ -50,9 +51,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
+            android:background="@android:color/background_dark"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere nisl vel odio dapibus auctor. Suspendisse convallis elementum sapien, eu pellentesque ante ultrices at. Quisque mattis ligula eu enim gravida congue. Curabitur sagittis mi sed laoreet luctus. Sed eu risus pellentesque, fermentum tortor efficitur, maximus ligula. Vestibulum eget finibus enim. Aenean vel nibh justo.
 
-Nullam quis tellus metus. Sed urna metus, dictum non ultricies eget, varius nec velit. Praesent porta malesuada leo, id iaculis orci. Donec elementum laoreet fermentum. Vestibulum in orci ante. Sed sit amet nisi ac dolor interdum efficitur. Etiam vitae libero risus. Nunc blandit justo vitae ligula dignissim, non bibendum sem egestas." />
+Nullam quis tellus metus. Sed urna metus, dictum non ultricies eget, varius nec velit. Praesent porta malesuada leo, id iaculis orci. Donec elementum laoreet fermentum. Vestibulum in orci ante. Sed sit amet nisi ac dolor interdum efficitur. Etiam vitae libero risus. Nunc blandit justo vitae ligula dignissim, non bibendum sem egestas."
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </LinearLayout>
