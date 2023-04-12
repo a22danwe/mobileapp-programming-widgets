@@ -50,7 +50,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="TextView" />
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere nisl vel odio dapibus auctor. Suspendisse convallis elementum sapien, eu pellentesque ante ultrices at. Quisque mattis ligula eu enim gravida congue. Curabitur sagittis mi sed laoreet luctus. Sed eu risus pellentesque, fermentum tortor efficitur, maximus ligula. Vestibulum eget finibus enim. Aenean vel nibh justo.
+
+Nullam quis tellus metus. Sed urna metus, dictum non ultricies eget, varius nec velit. Praesent porta malesuada leo, id iaculis orci. Donec elementum laoreet fermentum. Vestibulum in orci ante. Sed sit amet nisi ac dolor interdum efficitur. Etiam vitae libero risus. Nunc blandit justo vitae ligula dignissim, non bibendum sem egestas." />
     </LinearLayout>
 
 </LinearLayout>
