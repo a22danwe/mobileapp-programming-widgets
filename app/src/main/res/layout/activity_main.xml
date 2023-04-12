@@ -7,17 +7,13 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:layout_margin="5dp"
-        android:text="TextView - 1" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:Layout_contstraintTop_toBottomOf="button"
+        tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:background="@color/colorAccent"
-        android:text="TextView - 2" />
+
 </LinearLayout>
